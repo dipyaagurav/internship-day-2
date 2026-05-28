@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+    <style>
+        table,th,td{
+            color: white;
+            background-color: blue;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="demoo.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <div class="container">
+
+    <form>
+        <label >Full Name</label><br>
+        <input type="text" name="fullName" required><br>
+
+        <label >Email</label><br>
+        <input type="email" name="email" required><br>
+
+        <label >Password</label><br>
+        <input type="password" name="password" required><br>
+
+        <label >Phone Number</label><br>
+        <input type="tel" name="phone" required><br>
+
+        <label >Date of Birth</label><br>
+        <input type="date" name="dob" required> <br>
+
+        <label >Course Selection</label><br>
+        <select name="course" required><br>
+            <option value="">Select a Course</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JAVA SCRIPT">JAVA SCRIPT</option>
+            <option value="REACT">REACT</option>
+        </select>
+        <br>
+        <label>Gender</label><br>
+            
+            <div class="gender>
+
+             <input type=radio name="gender" >male
+             <input type="radio" name="gender">female
+
+            </div>
+
+           <label>address</label><br>
+              <textarea name="address" rows="4" required></textarea><br>
+              
+             <button type="submit">register</button> 
+             
+
+
+    </form>
+
+    <h1>student data table</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>name</th>
+            <th>course</th>
+            <th>city</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>rahul</td>
+            <td>html</td>
+            <td>mumbai</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>sneha</td>
+            <td>css</td>
+            <td>pune</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>amit</td>
+            <td>javascript</td>
+            <td>nashik</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>priya</td>
+            <td>react</td>
+            <td>nagpur</td>
+    </table>
+</div>
+</body>
+</html>

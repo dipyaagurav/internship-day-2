@@ -1,0 +1,58 @@
+body{
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+    color:blue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+label{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.gender{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.gender input{
+    width:auto;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+button:hover{
+    background-color: darkblue;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+th{
+    background-color: blue;
+    color: white;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
